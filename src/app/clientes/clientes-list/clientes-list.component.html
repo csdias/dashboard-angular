@@ -1,0 +1,12 @@
+<h2>Clientes</h2>
+<ul class="clientes">
+  <app-filter-text (changed)=filterChanged($event)></app-filter-text>
+  <li *ngFor="let cliente of clientes$ | async"
+    [class.selected]="cliente.id === selectedId">
+    <a [routerLink]="['/clientes', cliente.id]">
+      <span class="badge">{{ cliente.id }}</span>{{ cliente.cpf }} - {{ cliente.nome }} - {{ cliente.clienteSituacaoId }}
+    </a>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,24 @@
+<!-- <div  *ngIf="cliente$ | async as cliente"> -->
+<div  *ngIf="cliente">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()" >
+      <div formGroupName="cliente">
+      <h3>"{{ cliente.nome }}"</h3>
+      <div><label>Id: </label>{{ cliente.id }}</div>
+      <div>
+          <label for="cpf-number">Cpf: </label>
+          <input class="form-control" type="text" formControlName="cpf" appCpfMask id="cpf-number">
+      </div>
+      <div>
+        <label>Nome: </label>
+        <input formControlName="nome" placeholder="nome"/>
+      </div>
+      <div><label>Situacao: </label>{{ cliente.clienteSituacaoId }}</div>
+      <p>
+        <button (click)="gotoClientes(cliente)">Voltar</button>
+      </p>
+      <p>
+        <button type="submit" [disabled]="form.pristine">Salvar</button>
+      </p>
+    </div>
+  </form>
+</div>

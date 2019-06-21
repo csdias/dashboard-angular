@@ -7,11 +7,11 @@ Forked from https://stackblitz.com/angular/ngbdapjnrry
 #####################################################
 
 Challenges: <p>
-Apply a filter on the clientes module (done)<p>
+Apply a filter on the clientes module (done) <p>
 Apply a mask on the field Cpf (a brazilian document) (done) <p>
-Avoid the user getting out of the module while editing some info (pending)<p>   
+Avoid the user getting out of the module while editing some info (pending) <p>
 Ask for credentials to access the admin module (pending) <p>
-Create the angular client part as a git submodule on the Azure portal and point this submodule to github, keeping there only the server module.
+Create the angular client part as a git submodule on the Azure portal and point this submodule to github, keeping there only the server modules
 
 #####################################################
 

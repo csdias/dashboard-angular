@@ -2,12 +2,12 @@
 
 Angular Dashboard based on https://github.com/angular/angular/tree/master/aio/content/examples/router 
 
-Challenges: 
-Apply a filter on the clientes module (done)
-Apply a mask on the field Cpf (a brazilian document) (done)
-Avoid the user getting out of the module while editing some info (pending)
-Ask for credentials to access the admin module (pending)
-Create the angular client part as a git submodule on the Azure portal and centralize this submodule on github, keeping there only the server module.
+Challenges: <p>
+Apply a filter on the clientes module (done)<p>
+Apply a mask on the field Cpf (a brazilian document) (done) <p>
+Avoid the user getting out of the module while editing some info (pending)<p>   
+Ask for credentials to access the admin module (pending) <p>
+Create the angular client part as a git submodule on the Azure portal and point this submodule to github, keeping there only the server module.
 
 
 Forked from https://stackblitz.com/angular/ngbdapjnrry

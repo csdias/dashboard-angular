@@ -1,10 +1,10 @@
 <h1 class="title">Dashboard sample made with Angular</h1>
 <nav>
     <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-  <a routerLink="/clientes" routerLinkActive="active">Clients</a>
-  <a routerLink="/propostas" routerLinkActive="active">Trades</a>
+  <a routerLink="/clientes" routerLinkActive="active">Clientes</a>
+  <a routerLink="/propostas" routerLinkActive="active">Propostas</a>
   <a routerLink="/admin" routerLinkActive="active">Admin</a>
-  <a [routerLink]="[{ outlets: { popup: ['compose'] } }]">Contact</a>
+  <a [routerLink]="[{ outlets: { popup: ['compose'] } }]">Contato</a>
 </nav>
 <div>
   <router-outlet #routerOutlet="outlet"></router-outlet>

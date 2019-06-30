@@ -1,6 +1,6 @@
 # dashboard-angular
 
-Angular Dashboard based on https://github.com/angular/angular/tree/master/aio/content/examples/router 
+Angular Dashboard - Based on https://github.com/angular/angular/tree/master/aio/content/examples/router 
 
 Forked from https://stackblitz.com/angular/ngbdapjnrry
 
